@@ -1,6 +1,6 @@
 import './Navbar.css';
-import logo from '../../assets/logo.png';
-import cart_logo from '../../assets/cart-icon.png'
+import logo from '../../assets/shopping_logo.png';
+import cart_logo from  '../../assets/cart-icon-removebg-preview.png';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -34,7 +34,7 @@ const Navbar = () => {
     </div>
 
 
-  )
+  );
 }
 
 export default Navbar;

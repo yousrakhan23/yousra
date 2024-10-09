@@ -48,7 +48,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color:rgb(255, 199, 233) ; /* Example button color */
+    background-color:rgb(255, 199, 233) ;
     color: rgb(2, 0, 0);
     padding: 1px 2px;
     border: none;
@@ -58,8 +58,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.993);
 }
 .arrow-icon {
-    margin-left: 10px; /* Space between text and arrow */
-    width: 40px; /* Adjust the size of the arrow */
+    margin-left: 10px; 
+    width: 40px; 
     height: 40px;
     
 }
