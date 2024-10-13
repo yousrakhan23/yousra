@@ -1,7 +1,7 @@
 import './Hero.css';
-import hand_icon from '../../../assets/hand_icon-removebg-preview.png';
-import arrow_icon from '../../../assets/arrow_icon-removebg-preview.png';
-import hero_img from '../../../assets/hero_img-removebg-preview.png';
+import hand_icon from '../../assets/hand_icon.jpg';
+import arrow_icon from '../../assets/arrow_icon.jpg';
+import hero_img from '../../assets/hero_img.jpg';
 
 const Hero = () => {
   return (

@@ -4,6 +4,7 @@ import cart_logo from  '../../assets/cart-icon-removebg-preview.png';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
 
   const [menu, setmenu] = useState("shop");
@@ -27,6 +28,9 @@ const Navbar = () => {
 
       <div className="nav-login-cart">
         <Link to='/login'><button>Login</button></Link>
+        
+        <Link to='/signup'><button>Sign up</button></Link>
+        
         
         <Link to='/cart'><img src={cart_logo} alt="" /></Link>
         <div className="nav-cart-count">0</div>

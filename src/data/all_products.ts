@@ -16,7 +16,7 @@ import p15_image from '../assets/product_25.png';
 
 
 
-let all_products = [
+const all_products = [
     {
         id: 1, 
         name: "Boys Orange Shirt",

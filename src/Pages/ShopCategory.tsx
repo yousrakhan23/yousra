@@ -1,7 +1,8 @@
+
 import { useContext } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import dropdown_icon from '../assets/dropdown_icon.png';
-import Item from '../assets/pintester_icon.png'
+// import Item from '../assets/pintester_icon.png'
 import Items from "../Components/Items/Items";
 
 interface ShopCategoryProps{
@@ -17,6 +18,7 @@ const ShopCategory=(props:ShopCategoryProps)=>{
    return (
     <div className="shop-category">
       <img src={props.banner} alt="" />
+
       <div className="shopcategory-indexsort">
         <p>
           <span>Showing 1-12</span>out of 30 products
@@ -26,6 +28,7 @@ const ShopCategory=(props:ShopCategoryProps)=>{
          </div>
          <div className="shopcategory-products">
           {all_products.map((item,i)=>{
+            
             if(props.category===item.category){
               return <Items  
               key={i}
@@ -35,19 +38,13 @@ const ShopCategory=(props:ShopCategoryProps)=>{
               new_price={item.new_price}
               old_price={item.old_price}
               />
-             
-            }
+             }
             else{
               return null;
             }
           })}
          </div>
-      
-      
-    </div>
-  )
+      </div>
+  );
 }
- 
-
-
 export default ShopCategory;
